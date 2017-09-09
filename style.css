@@ -7,6 +7,9 @@ h2 {
   text-decoration: underline;
 }
 
+img{
+  vertical-align: center;
+}
 
 table, th, td {
   border: 1px solid black;
