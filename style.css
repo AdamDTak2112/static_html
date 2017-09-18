@@ -4,6 +4,7 @@ h1 {
 
 h2 {
   font-weight: bold;
+  
   text-decoration: underline;
 }
 
@@ -12,5 +13,11 @@ img {
 }
 
 table, th, td {
+  
   border: 1px solid black;
+  font-family: sans-serif;
+}
+
+td:hover{
+  background-color: #7EFD31
 }
