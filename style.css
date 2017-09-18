@@ -9,8 +9,15 @@ h2 {
   text-decoration: underline;
 }
 
-img {
-  vertical-align: center;
+#introgit {
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: auto;
+}
+
+img:first-of-type{
+  border: 5px solid black;
 }
 
 table, th, td {
