@@ -21,3 +21,7 @@ table, th, td {
 td:hover{
   background-color: #7EFD31
 }
+
+a:visited{
+  color: blue;
+}
