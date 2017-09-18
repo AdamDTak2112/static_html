@@ -26,6 +26,10 @@ table, th, td {
   font-family: sans-serif;
 }
 
+table:nth-child(even){
+  background-color: orange;
+}
+
 td{
   text-align: center;
 }
@@ -38,3 +42,13 @@ a:visited{
   color: purple;
 }
 
+#harambe{
+  display: block;
+  margin: auto;
+  width: 511px;
+  height: 288px;
+}
+
+#harambe:hover{
+  background-image: url(https://akphoto1.ask.fm/36b/20e68/163b/402c/9139/7a9f00ebf76f/original/256954.jpg)
+}
