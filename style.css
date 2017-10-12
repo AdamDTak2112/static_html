@@ -90,6 +90,12 @@ font-family: sans-serif;
   flex-flow: row;
 }
 
+.git-instruct{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
 #introgit {
   display: block;
   margin: auto;
