@@ -43,7 +43,8 @@ a:visited{
 
 main{
   display: flex;
-  justify-content: center;
+
+  justify-content: space-between;
 }
 
 footer{
@@ -68,6 +69,25 @@ font-family: sans-serif;
 
 .name{
 
+}
+
+.rusty{
+  width: 250px;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.about-aside{
+  flex-flow: column;
+}
+
+.about{
+  display: block;
+}
+
+.doobly{
+  display: flex;
+  flex-flow: row;
 }
 
 #introgit {
