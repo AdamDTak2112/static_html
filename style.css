@@ -25,10 +25,6 @@ table, th, td {
   font-family: sans-serif;
 }
 
-table:nth-child(even){
-  background-color: orange;
-}
-
 td{
   text-align: center;
 }
@@ -88,12 +84,36 @@ font-family: sans-serif;
 .doobly{
   display: flex;
   flex-flow: row;
+  justify-content: space-between;
 }
 
 .git-instruct{
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.create{
+  order: 2;
+  background-image: url('https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fth01.deviantart.net%2Ffs70%2FPRE%2Fi%2F2013%2F081%2F0%2F4%2Fspring_sunset___free_stock_image_by_kevron2001-d5yv3zn.jpg&f=1');
+  background-attachment: fixed;
+  margin: 5px;
+}
+
+.local{
+  order: 3;
+  background-image: url('https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fthumb7.shutterstock.com%2Fdisplay_pic_with_logo%2F64778%2F634117829%2Fstock-photo-two-fidget-spinners-634117829.jpg&f=1');
+  background-attachment: local;
+  margin: 5px;
+}
+
+.different{
+  order: 1;
+  background-image: url('https://images.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.i9tpnWbKDfKhBWyhW91X0gEsDI%26pid%3D15.1&f=1');
+  background-attachment: scroll;
+  margin: 5px;
 }
 
 #introgit {
