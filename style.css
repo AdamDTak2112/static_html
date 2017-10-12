@@ -1,3 +1,9 @@
+header{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 h1 {
   text-align: center;
   font-size: 32px;
@@ -5,15 +11,8 @@ h1 {
 
 h2 {
   font-weight: bold;
-  
-  text-decoration: underline;
-}
 
-#introgit {
-  display: block;
-  margin: auto;
-  width: 250px;
-  height: auto;
+  text-decoration: underline;
 }
 
 img:first-of-type{
@@ -21,7 +20,7 @@ img:first-of-type{
 }
 
 table, th, td {
-  
+
   border: 1px solid black;
   font-family: sans-serif;
 }
@@ -40,6 +39,32 @@ td:hover{
 
 a:visited{
   color: purple;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+.blog{
+border-style: solid;
+
+}
+
+.side{
+border-style: dotted;
+}
+
+.head-photo{
+  width: 250px;
+  height: 100%;
+}
+
+#introgit {
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: auto;
 }
 
 #harambe{
