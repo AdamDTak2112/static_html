@@ -46,6 +46,11 @@ main{
   justify-content: center;
 }
 
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+
 .blog{
 border-style: solid;
 
@@ -59,6 +64,10 @@ font-family: sans-serif;
 .head-photo{
   width: 250px;
   height: 100%;
+}
+
+.name{
+
 }
 
 #introgit {
